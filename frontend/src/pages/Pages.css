@@ -1,0 +1,91 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #424551 0%, #40354a 100%);
+  color: white;
+  border-radius: 8px;
+}
+
+.hero-section.premium {
+  background: linear-gradient(135deg, #705973 0%, #613b40 100%);
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.watches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 3rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.cta-section h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #e74c3c;
+  background-color: #fdf2f2;
+  border-radius: 8px;
+  border: 1px solid #f5c6cb;
+  margin-bottom: 1rem;
+}
+
+.error-container {
+  text-align: center;
+  padding: 3rem;
+}
+
+.retry-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.retry-button:hover {
+  background-color: #2980b9;
+}
